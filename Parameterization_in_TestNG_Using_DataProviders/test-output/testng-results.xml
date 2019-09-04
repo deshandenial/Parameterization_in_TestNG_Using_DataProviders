@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9141" started-at="2019-09-04T09:49:23Z" finished-at="2019-09-04T09:49:32Z">
+    <groups>
+      <group name="A">
+        <method signature="ParameterByITestContextInDataprovider.Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider@4b9e13df]" name="Test1" class="iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="ParameterByITestContextInDataprovider.Test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider@4b9e13df]" name="Test2" class="iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider"/>
+      </group> <!-- B -->
+    </groups>
+    <test name="Default test" duration-ms="9141" started-at="2019-09-04T09:49:23Z" finished-at="2019-09-04T09:49:32Z">
+      <class name="iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider@4b9e13df]" name="beforeTest" is-config="true" duration-ms="6453" started-at="2019-09-04T09:49:23Z" finished-at="2019-09-04T09:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider@4b9e13df]" name="Test1" duration-ms="0" started-at="2019-09-04T09:49:30Z" data-provider="serviceprovider" finished-at="2019-09-04T09:49:30Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider.dp(org.testng.ITestContext) returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider.dp(org.testng.ITestContext) returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider@4b9e13df]" name="afterTest" is-config="true" duration-ms="2609" started-at="2019-09-04T09:49:30Z" finished-at="2019-09-04T09:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider@4b9e13df]" name="Test2" duration-ms="0" started-at="2019-09-04T09:49:30Z" data-provider="serviceprovider" finished-at="2019-09-04T09:49:30Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider.dp(org.testng.ITestContext) returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider.dp(org.testng.ITestContext) returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- iTestContext_parameter_in_data_provider.ParameterByITestContextInDataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
